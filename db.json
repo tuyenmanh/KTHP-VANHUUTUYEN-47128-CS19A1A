@@ -1,0 +1,771 @@
+{
+  "weather": [
+    {
+      "id": 1,
+      "name": "An Giang",
+      "temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Tuesday": {"temperature": 28, "condition": "Clear"},
+        "Wednesday": {"temperature": 29, "condition": "Sunny"},
+        "Thursday": {"temperature": 26, "condition": "Cloudy"},
+        "Friday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Saturday": {"temperature": 30, "condition": "Clear"},
+        "Sunday": {"temperature": 29, "condition": "Sunny"}
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bà Rịa-Vũng Tàu","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 30, "condition": "Rain"},
+        "Tuesday": {"temperature": 32, "condition": "Partly Cloudy"},
+        "Wednesday": {"temperature": 31, "condition": "Clear"},
+        "Thursday": {"temperature": 29, "condition": "Sunny"},
+        "Friday": {"temperature": 30, "condition": "Partly Cloudy"},
+        "Saturday": {"temperature": 31, "condition": "Clear"},
+        "Sunday": {"temperature": 30, "condition": "Sunny"}
+      }
+    },
+    {
+      "id": 3,
+      "name": "Bắc Giang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bắc Kạn","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 5,"temperature": 27, "condition": "Partly Cloudy",
+      "name": "Bạc Liêu",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 6,
+      "name": "Bắc Ninh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bến Tre","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 8,
+      "name": "Bình Định","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 9,
+      "name": "Bình Dương","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 10,
+      "name": "Bình Phước","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 11,
+      "name": "Gia Lai","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 12,
+      "name": "Hà Giang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 13,
+      "name": "Hà Nam","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 14,
+      "name": "Hà Nội","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 16, "name": "Hải Dương","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 17, "name": "Hải Phòng","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 18, "name": "Hậu Giang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 19, "name": "Hòa Bình","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 20, "name": "Hưng Yên","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 21, "name": "Khánh Hòa","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 22, "name": "Kiên Giang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 23, "name": "Kon Tum","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 24, "name": "Lai Châu","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 25, "name": "Lâm Đồng","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 26, "name": "Lạng Sơn","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 27, "name": "Lào Cai","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 28, "name": "Long An","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 29, "name": "Nam Định","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 30, "name": "Nghệ An","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 31, "name": "Ninh Bình","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {"id": 32, "name": "Ninh Thuận","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 33, "name": "Phú Thọ","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 34, "name": "Phú Yên","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 35, "name": "Quảng Bình","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 36, "name": "Quảng Nam" ,"temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 37, "name": "Quảng Ngãi","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 38, "name": "Quảng Ninh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 39, "name": "Quảng Trị","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 40, "name": "Sóc Trăng","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 41, "name": "Sơn La","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 42, "name": "Tây Ninh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 43, "name": "Thái Bình","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 44, "name": "Thái Nguyên","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 45, "name": "Thanh Hóa","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 46, "name": "Thừa Thiên-Huế","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 47, "name": "Tiền Giang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {"id": 48, "name": "Trà Vinh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 49, "name": "Tuyên Quang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 50, "name": "Vĩnh Long","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 51, "name": "Vĩnh Phúc","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 52, "name": "Yên Bái","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 53, "name": "Phú Quốc","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 54, "name": "Cần Giờ","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 58,
+      "name": "Trà Vinh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 59,
+      "name": "Tuyên Quang","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 60,
+      "name": "Vĩnh Long","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 61,
+      "name": "Vĩnh Phúc","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 62,
+      "name": "Yên Bái","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 63,
+      "name": "Hồ Chí Minh","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 64,
+      "name": "Đắk Lắk","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 64,
+      "name": "Đà Lạt","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    },
+    {
+      "id": 65,
+      "name": "Đà Nẵng","temperature": 27, "condition": "Partly Cloudy",
+      "data": {
+        "Monday": {"temperature": 25, "condition": "Cloudy"},
+        "Tuesday": {"temperature": 26, "condition": "Rain"},
+        "Wednesday": {"temperature": 27, "condition": "Partly Cloudy"},
+        "Thursday": {"temperature": 24, "condition": "Sunny"},
+        "Friday": {"temperature": 26, "condition": "Clear"},
+        "Saturday": {"temperature": 28, "condition": "Partly Cloudy"},
+        "Sunday": {"temperature": 27, "condition": "Rain"}
+      }
+    }
+    
+  ]
+}
