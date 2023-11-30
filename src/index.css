@@ -5,27 +5,33 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: #f3f3f3;
-  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  height: 100vh;
+}
+
 .box {
+  flex: 1;
   padding: 15px;
-  width: 80%;
-  max-width: 500px;
-  height: 600px;
   background-color: #fff;
-  margin: 70px auto;
   box-shadow: 1px 1px 3px 3px rgba(11, 11, 11, 0.2);
-  border: 2px solid #e8e9e4; /* Thêm border và thiết lập màu sắc */
-  border-radius: 8px; /* Làm cho góc tròn */
+  border: 2px solid #e8e9e4;
+  border-radius: 8px;
+  margin: 20px;
+  overflow-y: auto;
+  text-align: center; /* Căn giữa văn bản trong .box */
 }
 
 .box h1 {
-  font-size: 20px;
+  font-size: 60px;
 }
 
 span {
@@ -35,8 +41,8 @@ span {
 .box .element {
   text-align: center;
   margin-top: 10px;
-  border: 1px solid #ddd; /* Thêm border cho element */
-  padding: 10px; /* Thêm padding để tạo khoảng cách nội dung và border */
+  border: 1px solid #ddd;
+  padding: 10px;
   border-radius: 4px;
 }
 
@@ -45,23 +51,22 @@ span {
   border: 0.7px solid #ddd;
   width: 100%;
   padding: 15px;
-  margin-top: 10px; /* Thêm margin để tạo khoảng cách với phần trên */
-  border: 1px solid #ddd; /* Thêm border cho input */
-  border-radius: 4px; /* Làm cho góc tròn */
+  margin-top: 10px;
+  border-radius: 4px;
 }
-/* Thêm các quy tắc CSS mới cho phần thẻ yêu thích */
+
 .favorites-container {
-  position: fixed;
-  top: 70px;
-  left: 870px;
+  width: 20%;
   background-color: #fff;
   padding: 10px;
   box-shadow: 1px 1px 3px 3px rgba(11, 11, 11, 0.2);
-  transition: left 0.3s ease;
-  border-radius: 10px; /* Thêm transition để làm cho hiệu ứng chuyển động mềm mại hơn */
+  border-radius: 10px;
+  max-height: calc(80vh - 20px);
+  overflow-y: auto;
+  position: fixed;
+  left: 10px;
 }
 
-/* Thêm một chút style cho nút mở đóng thẻ yêu thích */
 .toggle-favorites-button {
   cursor: pointer;
   font-size: 16px;
@@ -69,8 +74,21 @@ span {
   border: none;
   padding: 5px;
 }
+
 .favorites-container.hidden {
-  left: -200px; /* Đặt giá trị left là một số âm để ẩn nó khỏi màn hình */
+  right: -200px;
 }
 
+.settings-button {
+  background-color: rgba(39, 174, 95, 0.042);
+  color: #cf4f4f;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
 
+.settings-button svg {
+  margin-right: 5px;
+}
