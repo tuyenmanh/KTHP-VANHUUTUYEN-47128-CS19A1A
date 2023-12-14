@@ -1,101 +1,83 @@
-  import React, { useState, useEffect } from 'react';
-  import FavoritesToolbar from './FavoritesToolbar';
-  import SearchInput from './SearchInput';
-  import CurrentWeather from './CurrentWeather';
-  import WeeklyWeather from './WeeklyWeather';
-  import axios from 'axios';
-  import SettingsButton from './SettingsButton'; // Import component mới
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+import Search from './Search';
+import CurrentWeather from './CurrentWeather';
+import WeatherDetails from './WeatherDetails';
+import HourlyForecast from './HourlyForecast';
+import WeeklyForecast from './WeeklyForecast';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import WeatherPlay from './WeatherPlay';
 
 
-  const Weather = () => {
-    const [apiData, setApiData] = useState([]);
-    const [weeklyWeather, setWeeklyWeather] = useState([]);
-    const [search, setSearch] = useState('');
-    const [favorites, setFavorites] = useState([]);
-    const [showFavorites, setShowFavorites] = useState(false);
-    const [loading, setLoading] = useState(false);
+function Weather() {
+  const [data, setData] = useState({});
+  const [hourlyData, setHourlyData] = useState([]);
+  const [weeklyData, setWeeklyData] = useState([]);
+  const [showWeatherPlay] = useState(true);
 
-    useEffect(() => {
-      const fetchData = async () => {
-        setLoading(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      if (data.name) {
         try {
-          const response = await axios.get(`http://localhost:3001/weather?q=${search}`);
-          const data = response.data;
-          console.log(data);
-          if (response.status === 200) {
-            setApiData(data);
-          }
+          const hourlyUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${data.name}&units=metric&appid=ac3cdfdde6c81475169298d998ad1af9`;
+          const hourlyResponse = await axios.get(hourlyUrl);
+          const hourlyForecastData = parseHourlyData(hourlyResponse.data);
+          setHourlyData(hourlyForecastData);
+
+          const weeklyUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${data.name}&units=metric&appid=9f28778d35f386e1fdbbdd7efce3de1a`;
+          const weeklyResponse = await axios.get(weeklyUrl);
+          const weeklyForecastData = parseWeeklyData(weeklyResponse.data);
+          setWeeklyData(weeklyForecastData);
         } catch (error) {
-          console.error('Error fetching weather data:', error);
+          console.error('Error fetching data:', error);
         }
-        setLoading(false);
-      };
-      fetchData();
-    }, [search]);
-
-    useEffect(() => {
-      const fetchWeeklyData = async () => {
-        try {
-          const response = await axios.get(`http://localhost:3001/weather?q=${search}`);
-          const data = response.data;
-          console.log('Weekly Weather Data:', data);
-          if (response.status === 200 && data.length > 0 && data[0].data) {
-            setWeeklyWeather(
-              Object.entries(data[0].data).map(([day, weather]) => ({ day, ...weather }))
-            );
-          }
-        } catch (error) {
-          console.error('Error fetching weekly weather data:', error);
-        }
-      };
-
-      fetchWeeklyData();
-    }, [search]);
-
-    const addToFavorites = (city) => {
-      setFavorites([...favorites, city]);
+      }
     };
+    fetchData();
+  }, [data.name]);
 
-    const removeFromFavorites = (cityId) => {
-      const updatedFavorites = favorites.filter((city) => city.id !== cityId);
-      setFavorites(updatedFavorites);
-    };
+  const parseWeeklyData = (rawData) => {
+    return rawData.list.map((day) => ({
+      date: day.dt * 1000,
+      temperature: {
+        min: day.main.temp_min,
+        max: day.main.temp_max,
+      },
+      weatherCondition: day.weather[0].main,
+      humidity: day.main.humidity,
+    }));
+  };
 
-    const handleSettingsClick = () => {
-      // Handle settings button click, e.g., open a modal or navigate to settings page
-      console.log('Settings clicked!');
-    };
+  const parseHourlyData = (rawData) => {
+    return rawData.list.map((hour) => ({
+      time: hour.dt_txt,
+      temperature: hour.main.temp,
+      weatherCondition: hour.weather[0].main,
+      humidity: hour.main.humidity,
+    }));
+  };
 
-      return (
-        <div>
-          <div className='favorites-container'>
-            <button
-              className='toggle-favorites-button'
-              onClick={() => setShowFavorites(!showFavorites)}
-            >
-              {showFavorites ? 'x' : '|||'}
-            </button>
-            {showFavorites && (
-              <>
-                <FavoritesToolbar favorites={favorites} removeFromFavorites={removeFromFavorites} />
-                <SettingsButton onClick={handleSettingsClick} />
-              </>
-            )}
-          </div>
-    
-          <div className='box'>
-            <h1>
-              Weather <span>Today</span>
-            </h1>
-              
-            <SearchInput value={search} onChange={setSearch} />
-    
-            <CurrentWeather loading={loading} apiData={apiData} addToFavorites={addToFavorites} />
-    
-            <WeeklyWeather weeklyWeather={weeklyWeather} />
-          </div>
-        </div>
-      );
-    };
-    
-    export default Weather;
+  const searchLocation = (location) => {
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=ac3cdfdde6c81475169298d998ad1af9`;
+
+    axios.get(url).then((response) => {
+      setData(response.data);
+      console.log(response.data);
+    });
+  };
+
+  return (
+    <div className="app">
+      <Search onSearch={searchLocation} />
+      <div className="container">
+        <CurrentWeather data={data} />
+        {data.name !== undefined && <WeatherDetails data={data} />}
+        {hourlyData.length > 0 && <HourlyForecast hourlyData={hourlyData} />}
+        {weeklyData.length > 0 && <WeeklyForecast weeklyData={weeklyData} />}
+        {showWeatherPlay && <WeatherPlay />}
+      </div>
+    </div>
+  );
+}
+
+export default Weather;
